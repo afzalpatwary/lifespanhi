@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lifespanhi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Manrope", sans-serif;
+        }
+
+        .font-jost {
+            font-family: "Jost", sans-serif;
+        }
+
+        .font-open-sans {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .nothing-you-could-do-regular {
+            font-family: "Nothing You Could Do", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .bebas-neue-regular {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .container {
+            /* max-width: 1230px; */
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .bgNavyBlue {
+            background-color: #001f3f;
+        }
+
+        .bgHoverNavyBlue:hover {
+            background-color: #001f3f;
+        }
+
+        .textNavyBlue {
+            color: #001f3f;
+        }
+
+        .textTitle {
+            color: #001f3f;
+        }
+
+        .textColor {
+            color: #1a262f;
+        }
+
+
+        .hoverColorNavyBlue:hover {
+            color: #001f3f;
+        }
+
+        .hoverBg:hover {
+            background-color: #F7C244 !important;
+        }
+
+        .hoverColor:hover {
+            color: #F7C244 !important;
+        }
+
+        .bgPrimary {
+            background-color: #F7C244;
+        }
+
+        .bgHoverBlack:hover {
+            background-color: #000000;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Manrope';
+        }
+
+        .wrapperAfterBefore {
+            height: 600px;
+            width: 100%;
+        }
+
+        .shadow-custom:hover {
+            box-shadow: 0em 0.65em 1.65em 0em rgba(24, 24, 58, 0.22);
+        }
+
+        .owl-theme .owl-dots .owl-dot span {
+            background: #339ed7;
+            opacity: 0.3;
+        }
+
+        .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+            background: #339ed7;
+            opacity: 1;
+        }
+
+        .accordion-item-width {
+            width: calc(50% - 8px);
+        }
+
+        .bgThemePrimary {
+            background-color: #339ed7;
+        }
+
+        .textPrimary {
+            color: #339ed7;
+        }
+
+        .hoverTextPrimary:hover {
+            color: #339ed7;
+        }
+
+        .text-primary {
+            color: #339ed7;
+        }
+
+        .border-primary {
+            border-color: #339ed7;
+        }
+
+        .fill-white:hover path {
+            fill: #fff;
+        }
+
+        .hover-bg-primary:hover {
+            background-color: #339ed7;
+        }
+
+        .rgbaOPacityColor {
+            background-color: rgba(51, 158, 215, 0.4);
+        }
+
+        .colorPink {
+            color: #f49ec4;
+        }
+
+        .hoverBgPink:hover {
+            background-color: #f49ec4;
+        }
+
+        .owl-carousel2 .owl-stage-outer {
+            padding: 70px 0;
+        }
+
+        .owl-carousel2 .owl-item {
+            transition: opacity 0.3s ease;
+        }
+
+        .owl-carousel2 .owl-item.active.center {
+            opacity: 1;
+            box-shadow: 0em 1.15em 1.75em 0em rgba(0, 0, 0, 0.2);
+        }
+
+        .owl-carousel2 .owl-item {
+            opacity: 0.2;
+        }
+
+        .featureOwlCarousel.owl-theme .owl-dots .owl-dot span {
+            width: 30px !important;
+            height: 5px !important;
+            margin: 5px !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="z-10">
+        <div style="background-color: #f0f0f0;">
+            <div class="container mx-auto flex flex-wrap md:flex-nowrap gap-2 justify-center md:justify-between items-center py-3">
+                <div class="flex items-center gap-2">
+                    <span>Utah's Highest Rated!</span>
+                    <p class="flex items-center gap-1">
+                        <span class="textPrimary">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="#339ed7" width="18"
+                                height="18">
+                                <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                <path
+                                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="#339ed7" width="18"
+                                height="18">
+                                <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                <path
+                                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="#339ed7" width="18"
+                                height="18">
+                                <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                <path
+                                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="#339ed7" width="18"
+                                height="18">
+                                <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                <path
+                                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span class="textPrimary">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="#339ed7" width="18"
+                                height="18">
+                                <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                <path
+                                    d="M288 376.4l.1-.1 26.4 14.1 85.2 45.5-16.5-97.6-4.8-28.7 20.7-20.5 70.1-69.3-96.1-14.2-29.3-4.3-12.9-26.6L288.1 86.9l-.1 .3V376.4zm175.1 98.3c2 12-3 24.2-12.9 31.3s-23 8-33.8 2.3L288.1 439.8 159.8 508.3C149 514 135.9 513.1 126 506s-14.9-19.3-12.9-31.3L137.8 329 33.6 225.9c-8.6-8.5-11.7-21.2-7.9-32.7s13.7-19.9 25.7-21.7L195 150.3 259.4 18c5.4-11 16.5-18 28.8-18s23.4 7 28.8 18l64.3 132.3 143.6 21.2c12 1.8 22 10.2 25.7 21.7s.7 24.2-7.9 32.7L438.5 329l24.6 145.7z">
+                                </path>
+                            </svg>
+
+                        </span>
+                    </p>
+                </div>
+                <div>
+                    <a href="tel:+13854255989"
+                        class="text-base md:text-2xl font-semibold transition-all duration-200 hoverColor"
+                        style="color: #0066cc;">Call (385) 425-5989</a>
+                </div>
+                <div class="lg:flex justify-between">
+                    <nav class="hidden lg:block">
+                        <ul class="flex space-x-6 text-black font-semibold">
+                            <li><a href="#" class="text-sm transition-all duration-200 hoverColor">About</a></li>
+                            <li><a href="#" class="text-sm transition-all duration-200 hoverColor ">Reviews</a></li>
+                            <li><a href="#" class="text-sm transition-all duration-200 hoverColor">
+                                    Tips
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm transition-all duration-200 hoverColor">
+                                    Locations
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm transition-all duration-200 hoverColor">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="md:ml-10">
+                        <a href="#"
+                            class="text-sm md:text-base text-white hover:text-white duration-200  transition-all font-semibold py-2 px-4 rounded bgThemePrimary bgHoverBlack">
+                            Free Bid
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto flex justify-between items-center py-3">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="./images/lifespan-bath-remodel-logo-376w.webp" alt="Logo" class="h-10">
+            </div>
+
+            <!-- Menu Icon for Mobile -->
+            <div class="lg:hidden">
+                <button id="menu-toggle" class="text-black focus:outline-none">
+                    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Menu Items -->
+            <nav class="hidden lg:block">
+                <ul class="hidden lg:flex space-x-8 text-black uppercase font-semibold">
+                    <li>
+                        <a href="#" class="text-base transition-all duration-200 hoverColor">Bathroom Remodel</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-base transition-all duration-200 hoverColor">Shower Options</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-base transition-all duration-200 hoverColor">Walk-In Tubs</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-base transition-all duration-200 hoverColor">Bathtubs</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-base transition-all duration-200 hoverColor">Surrounds</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- Overlay -->
+        <div id="overlay" class="fixed inset-0 opacity-50 z-40 hidden"
+            style="background-color: rgba(227,240,252,0.88);"></div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+            class="fixed top-0 right-0 w-3/4 sm:w-2/3 h-full bg-white transform translate-x-full transition-transform duration-300 z-50">
+            <div class="flex justify-between items-center p-4">
+                <button id="menu-close" class="text-black focus:outline-none">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="px-8 py-10">
+                <div class="mb-6">
+                    <p class="block text-xl textNavyBlue font-semibold mb-2">
+                        Bathroom Remodel
+                    </p>
+                    <p class="block text-xl textNavyBlue font-semibold">Shower Options</p>
+                    <p class="block text-xl textNavyBlue font-semibold">Walk-In Tubs</p>
+                    <p class="block text-xl textNavyBlue font-semibold">Bathtubs</p>
+                    <p class="block text-xl textNavyBlue font-semibold">Surrounds</p>
+                </div>
+                <ul class="flex flex-col mb-6">
+                    <li>
+                        <a href="#"
+                            class="textNavyBlue text-base transition-all duration-200 hoverColor py-2 block px-4 border-b border-solid border-white"
+                            style="background-color: #f2f2f2;">About</a>
+                    </li>
+                    <li><a href="#"
+                            class="textNavyBlue text-base transition-all duration-200 hoverColor py-2 block px-4 border-b border-solid border-white"
+                            style="background-color: #f2f2f2;">Review</a></li>
+                    <li><a href="#"
+                            class="textNavyBlue text-base transition-all duration-200 hoverColor py-2 block px-4 border-b border-solid border-white"
+                            style="background-color: #f2f2f2;">Tips</a>
+                    </li>
+                    <li><a href="#"
+                            class="textNavyBlue text-base transition-all duration-200 hoverColor py-2 block px-4 border-b border-solid border-white"
+                            style="background-color: #f2f2f2;">Locations</a>
+                    </li>
+                    <li><a href="#"
+                            class="textNavyBlue text-base transition-all duration-200 hoverColor py-2 block px-4 border-b border-solid border-white"
+                            style="background-color: #f2f2f2;">Contact</a>
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <a href="#"
+                        class="block bgThemePrimary text-xl text-white font-semibold py-3 px-10 rounded-sm hover:bg-black duration-200 transition-all mb-4">
+                        Get your free bid
+                    </a>
+                    <a href="#"
+                        class="block text-xl textNavyBlue font-semibold py-2 duration-200 transition-all hoverColor mb-6 md:mb-0">
+                        Call (385) 425-5989
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header Section -->
+
+
+    <section class="mb-10 lg:mb-20">
+        <div class="container">
+            <img class="rounded-sm" src="./images/lifespan-tub-showroom.webp" alt="">
+        </div>
+        <div class="container lg:w-8/12 -mt-20 bg-white relative">
+            <div class="mx-auto text-center px-6 lg:px-16 py-10">
+                <p class="textPrimary text-xl font-medium leading-normal mb-6">
+                    Luxury bathroom remodeling services in Salt Lake City and all of Utah.
+                </p>
+                <h2 class="textTitle text-4xl md:text-5xl font-bold mb-8 leading-normal">
+                    Elevate Your Utah Bathroom
+                </h2>
+                <p class="text-xl font-medium leading-normal textColor mb-8">
+                    Lifespan Bath Remodel, Inc. specializes in top-notch bathroom remodels and upgrades. Our goal is to
+                    create a space you’ll fall in love with each morning, night, and every time in between.
+                </p>
+                <div class="md:flex items-center justify-center gap-4">
+                    <div class="mr-8">
+                        <a href="#"
+                            class="inline-block bgThemePrimary hover:bg-black text-xl text-white font-semibold py-3 px-8 rounded-sm duration-200 transition-all mb-6 md:mb-0">
+                            Book a free bid
+                        </a>
+                    </div>
+                    <a href="#"
+                        class="block text-xl text-black font-semibold py-4 duration-200 transition-all hoverTextPrimary mb-6 md:mb-0">
+                        Exterior remodel services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-no-repeat bg-center bg-cover object-center object-cover"
+        style="background-image: url(./images/summer-sales-event-pink.webp);">
+        <div class="container">
+            <div class="lg:flex justify-between items-center gap-10 xl:gap-14">
+                <div class="lg:w-6/12 mb-10 lg:mb-0">
+                    <div class="bg-white rounded-md p-4 md:p-10" style="box-shadow: 0px 0px 3px 2px rgba(57,60,65,0.15);">
+                        <p class="text-center text-xl font-medium leading-relaxed mb-6">
+                            Get a FREE Assessment and Bid Today
+                        </p>
+                        <form>
+                            <div class="mb-6">
+                                <label for="firstName"
+                                    class="block text-base font-medium text-black text-opacity-70">Name <span
+                                        class="text-sm font-normal textPrimary">(Required)</span></label>
+                                <div class="flex gap-4 mt-1">
+                                    <div class="w-1/2 ">
+                                        <label for="firstName"
+                                            class="block text-sm font-medium text-black text-opacity-70 mb-1">First</label>
+                                        <input type="text" id="firstName" name="firstName" placeholder="First"
+                                            class="w-full p-2 border rounded-md">
+                                    </div>
+                                    <div class="w-1/2 ">
+                                        <label for="firstName"
+                                            class="block text-sm font-medium text-black text-opacity-70 mb-1">Last</label>
+                                        <input type="text" id="lastName" name="lastName" placeholder="Last"
+                                            class="w-full p-2 border rounded-md">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 mt-1">
+                                <div class="mb-4 w-1/2 ">
+                                    <label for="email"
+                                        class="block text-sm font-medium text-black text-opacity-70 mb-1">Email
+                                        <span class="text-sm font-normal textPrimary">(Required)</span></label>
+                                    <input type="email" id="email" name="email"
+                                        class="mt-1 p-2 w-full border rounded-md">
+                                </div>
+                                <div class="mb-4 w-1/2 ">
+                                    <label for="phone"
+                                        class="block text-sm font-medium text-black text-opacity-70 mb-1">Phone
+                                        <span class="text-sm font-normal textPrimary">(Required)</span></label>
+                                    <input type="tel" id="phone" name="phone" class="mt-1 p-2 w-full border rounded-md">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label for="comments" class="text-base font-medium text-black text-opacity-70 mb-2">
+                                    Short description of work needed.
+                                </label>
+                                <label for="comments"
+                                    class="block text-sm font-medium text-black text-opacity-70 mb-2">Short description
+                                    of work needed.
+                                </label>
+                                <textarea id="comments" name="comments" rows="4"
+                                    class="mt-1 p-2 w-full border rounded-md" placeholder=""></textarea>
+                                <p class="text-sm text-gray-500 mt-1">0 of 800 max characters</p>
+                            </div>
+                            <div class="mb-4 mt-8">
+                                <label class="text-ms font-normal textColor mb-1 block">
+                                    Show us your old bathroom!
+                                </label>
+                                <label class="text-sm font-normal textColor mb-3 block">Upload 1-2
+                                    pictures of your current bathroom.
+                                </label>
+                                <div class="flex items-center mt-1">
+                                    <input type="checkbox" id="uploadPictures" name="uploadPictures" class="mr-2">
+                                    <label for="uploadPictures" class="text-sm">Yes, I'll upload pictures.</label>
+                                </div>
+                            </div>
+                            <p class="textColor text-xs mb-10">
+                                By providing your phone number and email, you agree to receive email and text message
+                                campaigns from Lifespan Bath Remodel. These may include specials, new products or
+                                services, and updates to our <a href="#" class="textPrimary">privacy policy</a>. You can
+                                opt out at any time by replying
+                                “STOP” to any text message or contacting us via the details on our website.
+                            </p>
+                            <div class="text-left">
+                                <button type="submit"
+                                    class="inline-block bgThemePrimary hover:bg-black w-full text-white font-bold py-3 px-8 rounded-md hoverBule hover:text-white duration-200 transition-all">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="lg:w-6/12 shrink-0 mb-10">
+                    <h2 class="textTitle text-4xl font-bold mb-8 leading-tight">
+                        Spring into Summer Savings!
+                    </h2>
+                    <p class="text-base textColor font-medium leading-normal mb-8">
+                        Dive into our best deal ever with a refreshing Bathroom Remodel!
+                    </p>
+                    <div class="mb-6">
+                        <img class="w-full" src="./images/laser-etched-vinyl-tiles.webp" alt="">
+                    </div>
+                    <p class="text-lg font-medium textColor mb-4">
+                        Get $750 OFF PLUS snag a <span class="text-lg text-black font-extrabold ml-1 py-1 px-4"
+                            style="background-color: #f49ec4;">FREE LASER ETCHING UPGRADE worth $1500!</span>
+                    </p>
+                    <p class="text-lg font-medium textColor mb-6">
+                        Upgrade your Shower, Bath, and Vanity during our Bath Remodel extravaganza. Don't miss
+                        out—splash into luxury now! <span class="text-xs italic">Offer expires August 30, 2024.</span>
+                    </p>
+                    <a href="tel:+13854255989"
+                        class="inline-block bg-black hoverBgPink text-black colorPink font-bold py-3 px-8 rounded-md hoverBule hover:text-white duration-200 transition-all">
+                        Call (385) 425-5989
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+    <!--  Trust -->
+    <section class="bg-no-repeat bg-center bg-cover object-center object-cover"
+        style="background-image: url(./images/bathtub-replacement-with-walk-out-doors.jpg);">
+        <div class="container py-10 lg:py-20">
+            <!-- Title Section -->
+            <div class="lg:w-6/12  mb-4">
+                <p class="textColor text-lg font-medium leading-normal mb-6">
+                    Custom Bathroom Solutions
+                </p>
+                <h2 class="text-black text-4xl md:text-5xl font-bold leading-tight mb-10">
+                    Bathroom Remodeling Contractors You Can <span class="text-primary">Trust</span>
+                </h2>
+            </div>
+            <!-- Jobs Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 ">
+                <!-- Job Item 1 -->
+                <div class="bg-white rounded-lg overflow-hidden">
+                    <div class="relative rounded-md group">
+                        <div
+                            class="rgbaOPacityColor absolute h-full w-full left-0 top-0 group-hover:opacity-0 transition-opacity duration-300 z-10">
+                        </div>
+                        <img src="./images/salt-lake-showroom.webp" alt="Job 2"
+                            class="w-full h-72 object-cover rounded-md">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-black text-opacity-90 mb-2">
+                            Bathroom Remodeling
+                        </h3>
+                        <p class="textColor text-md font-normal mb-5">
+                            Our services go beyond aesthetic changes. Talk to us about improving your bathroom’s
+                            functionality, style, and accessibility for years to come.
+                        </p>
+                        <a href="#"
+                            class="text-black hoverTextPrimary text-base font-semibold transition-opacity duration-300">
+                            Learn More >
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Job Item 2 -->
+                <div class="bg-white rounded-lg overflow-hidden">
+                    <div class="relative rounded-md group">
+                        <div
+                            class="rgbaOPacityColor absolute h-full w-full left-0 top-0 group-hover:opacity-0 transition-opacity duration-300 z-10">
+                        </div>
+                        <img src="./images/shower-tub-convert.webp" alt="Job 2"
+                            class="w-full h-72 object-cover rounded-md">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-black text-opacity-90 mb-2">
+                            Tub-to-Shower Conversions
+                        </h3>
+                        <p class="textColor text-md font-normal mb-5">
+                            We specialize in solutions that maximize your space’s size and functionality. Talk to us
+                            about converting your large bathtub into a standing shower.
+                        </p>
+                        <a href="#"
+                            class="text-black hoverTextPrimary text-base font-semibold transition-opacity duration-300">
+                            Learn More >
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Job Item 3 -->
+                <div class="bg-white rounded-lg overflow-hidden">
+                    <div class="relative rounded-md group">
+                        <div
+                            class="rgbaOPacityColor absolute h-full w-full left-0 top-0 group-hover:opacity-0 transition-opacity duration-300 z-10">
+                        </div>
+                        <img src="./images/bathtub-replacements-in-utah.webp" alt="Job 2"
+                            class="w-full h-72 object-cover rounded-md">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-black text-opacity-90 mb-2">
+                            Replacement Bathtubs
+                        </h3>
+                        <p class="textColor text-md font-normal mb-5">
+                            Choose from a wide range of replacement tubs in different styles and price ranges. We’ll
+                            handle the entire installation process – often in as little as one day.
+                        </p>
+                        <a href="#"
+                            class="text-black hoverTextPrimary text-base font-semibold transition-opacity duration-300">
+                            Learn More >
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden">
+                    <div class="relative rounded-md group">
+                        <div
+                            class="rgbaOPacityColor absolute h-full w-full left-0 top-0 group-hover:opacity-0 transition-opacity duration-300 z-10">
+                        </div>
+                        <img src="./images/replace-walk-in-shower.webp" alt="Job 2"
+                            class="w-full h-72 object-cover rounded-md">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-black text-opacity-90 mb-2">
+                            Walk-In Showers & Tubs
+                        </h3>
+                        <p class="textColor text-md font-normal mb-5">
+                            We work with homeowners of all ages and mobility levels to customize their bathing
+                            solutions. Talk to us about designing your own shower or tub.
+                        </p>
+                        <a href="#"
+                            class="text-black hoverTextPrimary text-base font-semibold transition-opacity duration-300">
+                            Learn More >
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden">
+                    <div class="relative rounded-md group">
+                        <div
+                            class="rgbaOPacityColor absolute h-full w-full left-0 top-0 group-hover:opacity-0 transition-opacity duration-300 z-10">
+                        </div>
+                        <img src="./images/lifespan-shower-showroom-slc.webp" alt="Job 2"
+                            class="w-full h-72 object-cover rounded-md">
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-black text-opacity-90 mb-2">
+                            Replacement Showers
+                        </h3>
+                        <p class="textColor text-md font-normal mb-5">
+                            Tired of dealing with an outdated, ugly, or malfunctioning shower? Browse our range of
+                            high-end showers and ask about our one-day replacement services.
+                        </p>
+                        <a href="#"
+                            class="text-black hoverTextPrimary text-base font-semibold transition-opacity duration-300">
+                            Learn More >
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden">
+                    <div class="relative rounded-md group">
+                        <div
+                            class="rgbaOPacityColor absolute h-full w-full left-0 top-0 group-hover:opacity-0 transition-opacity duration-300 z-10">
+                        </div>
+                        <img src="./images/utah-bathtub-replace.webp" alt="Job 2"
+                            class="w-full h-72 object-cover rounded-md">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-black text-opacity-90 mb-2">
+                            Shower-to-tub Conversions
+                        </h3>
+                        <p class="textColor text-md font-normal mb-5">
+                            Converting your shower to a bathtub can offer a range of benefits, including improved
+                            accessibility and customizations.
+                        </p>
+                        <a href="#"
+                            class="text-black hoverTextPrimary text-base font-semibold transition-opacity duration-300">
+                            Learn More >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End  Trust-->
+
+    <!-- Get Inspired -->
+    <section class="py-10 md:py-20">
+        <div class="mx-auto">
+            <div class="w-10/12 md:w-6/12 mx-auto text-center mb-16">
+                <h2 class="textTitle text-4xl md:text-5xl font-bold mb-8">Get Inspired</h2>
+                <p class="text-xl font-medium leading-normal mb-8" style="color: #1d1d1f;">
+                    Browse our gallery of past Utah bathroom renovations. See something you like? Get in touch with
+                    our team.
+                </p>
+            </div>
+
+            <div class="featureOwlCarousel owl-carousel owl-theme">
+                <div class="item">
+                    <img class="rounded-md" src="./images/bathremodel-lehi.webp" alt="Image 1" class="w-full h-auto">
+                </div>
+                <div class="item">
+                    <img class="rounded-md" src="./images/shower-replace-salt-lake.webp" alt="Image 2"
+                        class="w-full h-auto">
+                </div>
+                <div class="item">
+                    <img class="rounded-md" src="./images/bath-remodel-sandy-1.webp" alt="Image 3"
+                        class="w-full h-auto">
+                </div>
+                <div class="item">
+                    <img class="rounded-md" src="./images/one-day-bath-remodel-draper.webp" alt="Image 4"
+                        class="w-full h-auto">
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="text-center md:w-6/12 mx-auto mb-10 mt-20">
+                    <h1 class="textTitle text-4xl md:text-5xl font-bold mb-8 leading-tight">
+                        Explore Your Bathroom’s Possibilities Today
+                    </h1>
+                    <p class="text-xl textColor font-medium leading-normal mb-6">
+                        Lifespan specialists have been designing and implementing quality bathroom upgrades for nearly
+                        three
+                        decades. Our services are quick and efficient – but we’re also committed to ensuring excellence
+                        in
+                        each project, no matter how long it takes.
+                    </p>
+                    <p class="text-xl textColor font-medium leading-normal mb-8">
+                        Let’s talk about your goals and budget.
+                    </p>
+                    <a href="#"
+                        class="inline-block bgThemePrimary hover:bg-black text-xl text-white font-semibold py-3 px-8 rounded-sm duration-200 transition-all mb-6 md:mb-0">
+                        Book a free bid
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Showcase -->
+
+    <!-- Frequently -->
+    <section>
+        <div class="container">
+            <div class="py-14 px-10 bg-center bg-black bg-repeat"
+                style="background-image: url(./images/fake-brick.png);">
+                <h2 class="text-white text-3xl font-bold mb-10 text-center">Frequently Asked Questions</h2>
+                <div class="grid md:grid-cols-2 gap-x-8 gap-y-2 mb-10">
+                    <div>
+                        <div class="border border-gray-700 rounded-lg flex flex-col mb-4">
+                            <button
+                                class="text-xl text-white w-full rounded-lg text-left p-4 flex justify-between items-center focus:outline-none hover:bg-white hover:text-black"
+                                onclick="toggleAccordion(1)">
+                                <span>How long does a bathroom remodel take?</span>
+                                <span class="text-2xl">
+                                    <i class="fas fa-plus text-primary"></i>
+                                </span>
+                            </button>
+                            <div id="accordion1" class="overflow-hidden max-h-0 transition-all duration-500">
+                                <p class="p-4 text-white">
+                                    Yes, BH Exterior Design is an offshoot of Boxer Homes, our parent company. While
+                                    we construct a few homes each year, our primary focus is on exterior renovation
+                                    and design.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="border border-gray-700 rounded-lg flex flex-col">
+                            <button
+                                class="text-xl text-white w-full rounded-lg text-left p-4 flex justify-between items-center focus:outline-none hoverBg hover:text-black hover:text-opacity-70"
+                                onclick="toggleAccordion(2)" style="background-color: rgba(0, 0, 0, 0.18);">
+                                <span>
+                                    Can you make acrylic surrounds look like tile?
+                                </span>
+                                <span class="text-2xl">
+                                    <i class="fas fa-plus text-primary"></i>
+                                </span>
+                            </button>
+                            <div id="accordion2" class="overflow-hidden max-h-0 transition-all duration-500">
+                                <p class="p-4 text-white">
+                                    Typically rendering services include up to two revisions. Additionally, clients
+                                    may have access to the rendering software to make minor adjustments themselves.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border border-gray-700 rounded-lg  mb-4">
+                            <button
+                                class="text-xl text-white rounded-lg w-full text-left p-4 flex justify-between items-center focus:outline-none hoverBg hover:text-black hover:text-opacity-70"
+                                onclick="toggleAccordion(3)" style="background-color: rgba(0, 0, 0, 0.18);">
+                                <span>What is the cost of a bathroom remodel in Utah?</span>
+                                <span class="text-2xl">
+                                    <i class="fas fa-plus text-primary"></i>
+                                </span>
+                            </button>
+                            <div id="accordion3" class="overflow-hidden max-h-0 transition-all duration-500">
+                                <p class="p-4 text-white">
+                                    Our rendering software applies realistic textures, lighting effects, and shadows
+                                    to
+                                    create lifelike images of the building with siding, roofing, windows, and other
+                                    exterior elements. While no rendering can perfectly replicate real-life
+                                    conditions,
+                                    our renderings provide a level of realism that helps homeowners, contractors,
+                                    and
+                                    insurance professionals visualize projects and make informed decisions.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="border border-gray-700 rounded-lg">
+                            <button
+                                class="text-xl text-white w-full text-left p-4 flex justify-between items-center focus:outline-none hoverBg hover:text-black hover:text-opacity-70 rounded-md"
+                                onclick="toggleAccordion(4)" style="background-color: rgba(0, 0, 0, 0.18);">
+                                <span>Can you install my new vanity for me?</span>
+                                <span class="text-2xl">
+                                    <i class="fas fa-plus text-primary"></i>
+                                </span>
+                            </button>
+                            <div id="accordion4" class="overflow-hidden max-h-0 transition-all duration-500">
+                                <p class="p-4 text-white">
+                                    Should a client choose to engage BH for work on their home, the cost of the
+                                    rendering will be credited back to them. While we do not provide refunds for
+                                    final
+                                    renderings, it's important to note that these visualizations are crafted to
+                                    provide
+                                    realism, aiding homeowners in project visualization and decision-making. They
+                                    are
+                                    not intended as final architectural representations. This approach empowers
+                                    homeowners to visualize their home, experiment with design, and receive a
+                                    project
+                                    estimate without obligation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Frequently Section -->
+
+
+    <!-- Review -->
+    <section class="py-10 lg:py-20">
+        <div class="container">
+            <div class="lg:flex justify-between items-center pt-20 gap-10">
+                <div class="lg:w-6/12">
+                    <div class="">
+                        <h1 class="textTitle text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                            What Utah Homeowners Are Saying
+                        </h1>
+                        <p class="text-xl textColor font-medium leading-normal mb-8">
+                            Don’t just take our word for it – check out what your community says about our luxury
+                            bathroom designs.
+                        </p>
+                        <a href="#"
+                            class="inline-block bgThemePrimary hover:bg-black text-xl text-white font-semibold py-3 px-8 rounded-sm duration-200 transition-all mb-6 md:mb-0">
+                            Leave us a review
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:w-6/12 shrink-0 mb-10">
+                    <!-- Button to open modal -->
+                    <div class="flex lg:justify-end items-center max-w-60">
+                        <div class="relative cursor-pointer">
+                            <img class="z-10 relative rounded-md" src="./images/lifespan-bath-wal-in-tub-reviews.webp"
+                                alt="Video Thumbnail" class="rounded-md">
+                            <div class="rounded-md absolute left-2 top-2 bgThemePrimary w-full h-full">
+
+                            </div>
+                            <div class="absolute z-10 inset-0 flex justify-center items-center">
+                                <div class="bgThemePrimary p-2 rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M14.752 11.168l-5.197-2.991A1 1 0 008 9.077v5.846a1 1 0 001.555.832l5.197-2.991a1 1 0 000-1.664z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div id="videoModal"
+                        class="fixed z-20 inset-0 bg-black bg-opacity-50 flex justify-center items-center hidden">
+                        <div
+                            class="bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full">
+                            <div class="flex justify-end p-2">
+                                <button onclick="toggleModal()" class="text-gray-400 hover:text-gray-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="px-4 pb-4">
+                                <div class="aspect-w-16 aspect-h-9">
+                                    <iframe id="videoFrame" src="" frameborder="0" allow="autoplay; fullscreen"
+                                        allowfullscreen class="w-full h-full"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Review -->
+
+
+
+
+    <section>
+        <div class="relative">
+            <div class="owl-carousel owl-carousel2 owl-theme">
+                <!-- Slide 1 -->
+                <div class="flex flex-col bg-white rounded-md p-6 rounded-md">
+                    <h2 class="text-primary text-lg font-semibold">West Jordan Bathroom Remodel</h2>
+                    <p class="text-black text-3xl font-open-sans mt-3">"Fast and clean!"</p>
+                    <p class="text-black text-md mb-4 mt-3 font-open-sans italic">
+                        "My new bathroom is so wonderful. They were fast and clean. The new soaker tub and flooring
+                        makes the bathroom feel bigger and brighter."
+                    </p>
+                    <ul class="mt-4 space-y-2 text-left">
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span>
+                            Soaker tub
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span>
+                            Vinyl Flooring
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span> Etched surround
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span> New hardware
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="flex flex-col bg-white rounded-md p-6 rounded-md">
+                    <h2 class="text-primary text-lg font-semibold">Retirement community in St. George</h2>
+                    <p class="text-black text-3xl font-open-sans mt-3">"Updated guest bath!"</p>
+                    <p class="text-black text-md mb-4 mt-3 font-open-sans italic">"These folks replaced that with a
+                        gorgeous shower, fixtures that match
+                        my existing granite. They make sure that all the plumbing was appropriately inspected and
+                        replaced."</p>
+                    <ul class="mt-4 space-y-2 text-left">
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span>
+                            Shower replacement
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span>
+                            Bathtub replacement
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="flex flex-col bg-white rounded-md p-6 rounded-md">
+                    <h2 class="text-primary text-lg font-semibold">Salt Lake Bathroom Remodel</h2>
+                    <p class="text-black text-3xl font-open-sans mt-3">"All we could hope for!"</p>
+                    <p class="text-black text-md mb-4 mt-3 font-open-sans italic">"Our experience with Lifespan Home
+                        Improvements has been all that we
+                        could hope for. There were a number of times when a less dedicated contractor might have left
+                        the job incomplete."</p>
+                    <ul class="mt-4 space-y-2 text-left">
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span> Flooring
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span>
+                            Bathtub replacement
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span> Interior structural repair
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="flex flex-col bg-white rounded-md shadow-lg p-6 rounded-md">
+                    <h2 class="text-primary text-lg font-semibold">West Jordan Bathroom Remodel</h2>
+                    <p class="text-black text-3xl font-open-sans mt-3">"Fast and clean!"</p>
+                    <p class="text-black text-md mb-4 mt-3 font-open-sans italic">
+                        "My new bathroom is so wonderful. They were fast and clean. The new soaker tub and flooring
+                        makes the bathroom feel bigger and brighter."
+                    </p>
+                    <ul class="mt-4 space-y-2 text-left">
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span>
+                            Soaker tub
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span>
+                            Vinyl Flooring
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span> Etched surround
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span> New hardware
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="flex flex-col bg-white rounded-md shadow-lg p-6 rounded-md">
+                    <h2 class="text-primary text-lg font-semibold">West Jordan Bathroom Remodel</h2>
+                    <p class="text-black text-3xl font-open-sans mt-3">"Fast and clean!"</p>
+                    <p class="text-black text-md mb-4 mt-3 font-open-sans italic">
+                        "My new bathroom is so wonderful. They were fast and clean. The new soaker tub and flooring
+                        makes the bathroom feel bigger and brighter."
+                    </p>
+                    <ul class="mt-4 space-y-2 text-left">
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span>
+                            Soaker tub
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span>
+                            Vinyl Flooring
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span> Etched surround
+                        </li>
+                        <li class="text-black flex items-center text-base font-medium mb-2">
+                            <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16">
+                                    <!--! Font Awesome Pro 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </span> New hardware
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Navigation Arrows -->
+            <div class="absolute top-1/2 left-0 transform -translate-y-1/2">
+                <button class="bg-white p-2 rounded-full shadow-lg owl-prev"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg></button>
+            </div>
+            <div class="absolute top-1/2 right-0 transform -translate-y-1/2">
+                <button class="bg-white p-2 rounded-full shadow-lg owl-next"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg></button>
+            </div>
+        </div>
+    </section>
+
+    <!--  Tips and Trends -->
+    <section class="py-10 lg:py-20">
+        <div class="container">
+            <!-- Title Section -->
+            <div class="text-center mb-12 w-10/12 md:w-7/12 mx-auto">
+                <h2 class="text-black text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                    Tips and Trends
+                </h2>
+                <p class="textColor text-lg font-medium leading-normal">
+                    Discover expert tips and advice for your bathroom
+                    remodel, from small bathroom optimizations to cost-saving strategies, in our latest articles at
+                    Lifespan Bath Remodel. Elevate your space with our insights.
+                </p>
+            </div>
+            <!-- Jobs Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Job Item 1 -->
+                <div class="bg-white rounded-lg overflow-hidden">
+                    <div class="relative rounded-md group mb-2">
+                        <div
+                            class="rgbaOPacityColor absolute h-full w-full left-0 top-0 group-hover:opacity-0 transition-opacity duration-300 z-10">
+                        </div>
+                        <img src="./images/bathtub-replacements-in-utah.webp" alt="Job 2"
+                            class="w-full h-72 object-cover rounded-md">
+                    </div>
+
+                    <div class="">
+                        <span class="nothing-you-could-do-regular text-sm block mb-2">August 27, 2024</span>
+                        <h3 class="text-lg font-bold text-black text-opacity-90 mb-2">
+                            7 Best Types of Walk-In Tubs in 2024
+                        </h3>
+                        <p class="textColor text-md font-open-sans font-normal pb-10 border-b-2 mb-1"
+                            style="border-color: rgb(205, 205, 205);">
+                            If you or an aging loved one wants to keep living independently at home, you’re probably
+                            always looking for ways to make your...
+                        </p>
+                        <a href="#"
+                            class="bebas-neue-regular text-primary hover:text-black uppercase text-xs font-normal transition-opacity duration-300">Walk-In
+                            Tubs</a>
+                    </div>
+                </div>
+
+                <!-- Job Item 2 -->
+                <div class="bg-white rounded-lg overflow-hidden">
+                    <div class="relative rounded-md group mb-2">
+                        <div
+                            class="rgbaOPacityColor absolute h-full w-full left-0 top-0 group-hover:opacity-0 transition-opacity duration-300 z-10">
+                        </div>
+                        <img src="./images/one-day-bathroom-remodeling-scaled.jpg" alt="Job 2"
+                            class="w-full h-72 object-cover rounded-md">
+                    </div>
+
+                    <div class="">
+                        <span class="nothing-you-could-do-regular text-sm block mb-2">August 27, 2024</span>
+                        <h3 class="text-lg font-bold text-black text-opacity-90 mb-2">
+                            What to Expect from a One-Day Bathroom Remodeling Service
+                        </h3>
+                        <p class="textColor text-md font-open-sans font-normal pb-10 border-b-2 mb-1"
+                            style="border-color: rgb(205, 205, 205);">
+                            You know your bathroom has seen better days. It’s outdated, maybe a little run-down, and
+                            practically begging for an upgrade. You also know...
+                        </p>
+                        <a href="#"
+                            class="bebas-neue-regular text-primary hover:text-black uppercase text-xs font-normal transition-opacity duration-300">Walk-In
+                            Tubs</a>
+                    </div>
+                </div>
+
+                <!-- Job Item 3 -->
+                <div class="bg-white rounded-lg overflow-hidden">
+                    <div class="relative rounded-md group mb-2">
+                        <div
+                            class="rgbaOPacityColor absolute h-full w-full left-0 top-0 group-hover:opacity-0 transition-opacity duration-300 z-10">
+                        </div>
+                        <img src="./images/Walk-in-shower.jpeg" alt="Job 2" class="w-full h-72 object-cover rounded-md">
+                    </div>
+
+                    <div class="">
+                        <span class="nothing-you-could-do-regular text-sm block mb-2">August 27, 2024</span>
+                        <h3 class="text-lg font-bold text-black text-opacity-90 mb-2">
+                            Planning A Bathroom Remodel? Know These 8 Benefits of a Walk-In Shower
+                        </h3>
+                        <p class="textColor text-md font-open-sans font-normal pb-10 border-b-2 mb-1"
+                            style="border-color: rgb(205, 205, 205);">
+                            When it comes to bathroom renovations, one trend that continues to gain popularity is the
+                            walk-in shower. If you are considering an upgrade,...
+                        </p>
+                        <a href="#"
+                            class="bebas-neue-regular text-primary hover:text-black uppercase text-xs font-normal transition-opacity duration-300">Walk-In
+                            Tubs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End  Tips and Trends-->
+
+
+    <!--  Tips and Trends -->
+    <section class="pb-10 lg:pb-20">
+        <div class="container">
+            <!-- Title Section -->
+            <div class="text-center mb-12 lg:w-6/12 mx-auto mb-4">
+                <h2 class="text-black text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                    Come See Us
+                </h2>
+                <p class="textColor text-lg font-medium leading-normal">
+                    We're eager to meet you face-to-face! Visit us at our Salt Lake City or St. George locations. Come
+                    in today to check out samples of what we offer and arrange a design consultation.
+                </p>
+            </div>
+            <!-- Jobs Grid -->
+
+            <!-- Salt Lake Showroom -->
+            <div class="flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0 md:space-x-8">
+                <!-- Salt Lake Showroom -->
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-blacktext-2xl font-bold">Salt Lake Showroom</h2>
+                    <p class="text-sm font-open-sans mt-2">342 W 3000 S, Salt Lake City, UT <em>(Frank S Ford Industrial
+                            Park)</em></p>
+                    <div class="mt-4">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.073432553132!2d-111.9055983!3d40.7005174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752880f76e1a067%3A0x82616f1c8e3c5dc!2sLifespan%20Bath%20Remodel!5e0!3m2!1sen!2sus!4v1638301710186!5m2!1sen!2sus"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <!-- St. George Showroom -->
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-blacktext-2xl font-bold">St. George Showroom</h2>
+                    <p class="text-sm font-open-sans mt-2">1812 W Sunset Blvd Ste 20, St. George, UT 84770</p>
+                    <div class="mt-4">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3183.5093318985186!2d-113.5997224!3d37.1135506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ca2e49a15bb8f1%3A0x189d7d2e6b0c678b!2sLuxury%20Bath%20of%20Southern%20Utah!5e0!3m2!1sen!2sus!4v1638301765634!5m2!1sen!2sus"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End  Tips and Trends-->
+
+    <!-- Footer Section -->
+    <footer style="background-color: #f2f2f2;">
+        <div class="container mx-auto py-10 md:py-20">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Locations -->
+                <div>
+                    <h3 class="text-black text-xl font-medium font-jost mb-6">
+                        Locations
+                        <span class="block border-b-4 border-solid border-primary pb-3 w-10"></span>
+                    </h3>
+
+                    <p class="text-xl font-semibold text-black font-jost mb-2">Salt Lake City, Utah</p>
+                    <p class="text-base font-normal font-jost mb-6">
+                        342 W 3000 S, Salt Lake City, UT (Frank S Ford Industrial Park)
+                    </p>
+                    <p class="text-xl font-semibold text-black font-jost mb-2">St George, Utah</p>
+                    <p class="text-base font-normal font-jost mb-6">1812 W Sunset Blvd Suite 20 St. George, UT 84770</p>
+                    <p class="text-xl font-semibold text-black font-jost mb-2">Hours</p>
+                    <p class="text-base font-normal font-jost">Mon - Fri 7:00 am - 5:00 pm Sat - Sun Closed</p>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-black text-xl font-medium font-jost mb-6">
+                        Contact
+                        <span class="block border-b-4 border-solid pb-3 w-10 border-primary"></span>
+                    </h3>
+                    <p class="mb-8">
+                        <span class="text-xl font-semibold text-black font-jost mb-2">Call Today</span>
+                        <a href="tel:+13854255989" class="text-base font-normal block">(801) 532-2000</a>
+                    </p>
+                    <p>
+                        <span class="text-xl font-semibold text-black font-jost mb-2">Email Us</span>
+                        <a href="mailto:office@lifespanhi.com"
+                            class="text-base font-normal block">office@lifespanhi.com</a>
+                    </p>
+                </div>
+
+                <!-- Menus -->
+                <div>
+                    <h3 class="text-black text-xl font-medium font-jost mb-6">
+                        Menus
+                        <span class="block border-b-4 border-solid pb-3 w-10 border-primary"></span>
+                    </h3>
+                    <div class="flex gap-10">
+                        <ul class="">
+                            <li><a href="#" class="text-base font-normal font-jost mb-3 inline-block">Bathroom
+                                    Remodel</a></li>
+                            <li><a href="#" class="text-base font-normal font-jost mb-3 inline-block">Shower Options</a>
+                            </li>
+                            <li><a href="#" class="text-base font-normal font-jost mb-3 inline-block">Walk-In Tubs</a>
+                            </li>
+                            <li><a href="#" class="text-base font-normal font-jost mb-3 inline-block">Bathtubs</a></li>
+                            <li><a href="#" class="text-base font-normal font-jost mb-3 inline-block">Surrounds</a></li>
+                        </ul>
+                        <ul class="">
+                            <li><a href="#" class="text-md font-normal font-jost mb-3">Bathroom Remodel</a></li>
+                            <li><a href="#" class="text-md font-normal font-jost mb-3">Shower Options</a></li>
+                            <li><a href="#" class="text-md font-normal font-jost mb-3">Walk-In Tubs</a></li>
+                            <li><a href="#" class="text-md font-normal font-jost mb-3">Bathtubs</a></li>
+                            <li><a href="#" class="text-md font-normal font-jost mb-3">Surrounds</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="bg-black py-8">
+            <div class="container mx-auto">
+                <div class="flex flex-col sm:flex-row justify-between items-center">
+                    <a href="#" class="mb-6 md:mb-0 inline-block"><img class="h-10 w-full"
+                            src="./images/lifespan-bath-remodel-logo-376w.webp" alt=""></a>
+                    <div class="text-white text-base font-medium mb-6 md:mb-0 inline-block">&copy; 2024 Lifespan Bath &
+                        Remodel. All rights reserved.</div>
+                    <div class="mt-4 sm:mt-0 flex space-x-4">
+                        <div class="flex items-center gap-3">
+                            <a href="#"
+                                class="fill-white hover-bg-primary h-8 w-7 flex items-center justify-center bg-white transition-all duration-150 rounded-sm">
+                                <svg class="transition-all duration-150" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" viewBox="0 0 320 512">
+                                    <path
+                                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"
+                                        fill="#339ed7">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="#"
+                                class="fill-white hover-bg-primary h-8 w-7 flex items-center justify-center bg-white transition-all duration-150 rounded-sm">
+                                <svg class="transition-all duration-150" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" viewBox="0 0 24 24">
+                                    <path fill="#339ed7"
+                                        d="M12 0c-3.292 0-3.708.014-5.003.072-1.294.058-2.183.246-2.963.53a6.006 6.006 0 0 0-2.18 1.433A6.006 6.006 0 0 0 .602 4.248c-.284.78-.472 1.669-.53 2.963C.014 8.506 0 8.922 0 12s.014 3.708.072 5.003c.058 1.294.246 2.183.53 2.963a6.006 6.006 0 0 0 1.433 2.18 6.006 6.006 0 0 0 2.18 1.433c.78.284 1.669.472 2.963.53C8.506 23.986 8.922 24 12 24s3.708-.014 5.003-.072c1.294-.058 2.183-.246 2.963-.53a6.006 6.006 0 0 0 2.18-1.433 6.006 6.006 0 0 0 1.433-2.18c.284-.78.472-1.669.53-2.963.058-1.295.072-1.711.072-5.003s-.014-3.708-.072-5.003c-.058-1.294-.246-2.183-.53-2.963a6.006 6.006 0 0 0-1.433-2.18A6.006 6.006 0 0 0 20.966.602c-.78-.284-1.669-.472-2.963-.53C15.708.014 15.292 0 12 0zm0 2.162c3.239 0 3.63.012 4.911.07 1.182.053 1.823.248 2.248.414.566.219.971.482 1.398.909.426.426.69.831.909 1.398.166.425.361 1.066.414 2.248.058 1.281.07 1.672.07 4.911s-.012 3.63-.07 4.911c-.053 1.182-.248 1.823-.414 2.248-.219.566-.482.971-.909 1.398-.426.426-.831.69-1.398.909-.425.166-1.066.361-2.248.414-1.281.058-1.672.07-4.911.07s-3.63-.012-4.911-.07c-1.182-.053-1.823-.248-2.248-.414a4.084 4.084 0 0 1-1.398-.909 4.084 4.084 0 0 1-.909-1.398c-.166-.425-.361-1.066-.414-2.248-.058-1.281-.07-1.672-.07-4.911s.012-3.63.07-4.911c.053-1.182.248-1.823.414-2.248a4.084 4.084 0 0 1 .909-1.398 4.084 4.084 0 0 1 1.398-.909c.425-.166 1.066-.361 2.248-.414C8.37 2.174 8.761 2.162 12 2.162zm0 3.505a6.333 6.333 0 0 0 0 12.666 6.333 6.333 0 0 0 0-12.666zm0 2.162a4.171 4.171 0 1 1 0 8.342 4.171 4.171 0 0 1 0-8.342zM18.406 3.8a1.49 1.49 0 1 0 0 2.98 1.49 1.49 0 0 0 0-2.98z" />
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Copyright -->
+    </footer>
+    <!-- Footer Section -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.remove('translate-x-full');
+            document.getElementById('overlay').classList.remove('hidden');
+        });
+
+        document.getElementById('menu-close').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.add('translate-x-full');
+            document.getElementById('overlay').classList.add('hidden');
+        });
+
+        document.getElementById('overlay').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.add('translate-x-full');
+            document.getElementById('overlay').classList.add('hidden');
+        });
+
+
+
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                stagePadding: 300, // Adjust this value for the desired padding
+                items: 1, // Set to 1 item at a time
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1 // Keeping 1 item for consistency
+                    },
+                    1000: {
+                        items: 1 // Keeping 1 item for consistency
+                    }
+                }
+            });
+        });
+
+
+        $('.owl-carousel2').owlCarousel({
+            nav: true,
+            items: 5,
+            loop: false,
+            center: true,
+            margin: 20,
+            URLhashListener: true,
+            autoplayHoverPause: true,
+            startPosition: 'URLHash',
+            navText: [$('.owl-prev'), $('.owl-next')],
+            responsive: {
+                0: {
+                    items: 1 // Number of items for small screens (e.g., mobile)
+                },
+                600: {
+                    items: 2 // Number of items for medium screens (e.g., tablets)
+                },
+                1000: {
+                    items: 4 // Number of items for large screens (e.g., desktops)
+                }
+            },
+            onTranslated: function () {
+                updateOpacity();
+            },
+            onInitialized: function () {
+                updateOpacity();
+            }
+        });
+
+        function updateOpacity() {
+            $('.owl-item').css('opacity', '0.2'); // Set all items to reduced opacity
+            $('.owl-item.active.center').css('opacity', '1'); // Only the centered active item gets full opacity
+        }
+
+        function toggleModal() {
+            const modal = document.getElementById('videoModal');
+            modal.classList.toggle('hidden');
+
+            const iframe = document.getElementById('videoFrame');
+            if (!modal.classList.contains('hidden')) {
+                iframe.src = "https://www.youtube.com/embed/your-video-id";
+            } else {
+                iframe.src = "";
+            }
+        }
+
+        document.querySelector('.cursor-pointer').addEventListener('click', toggleModal);
+
+
+        let active = false;
+        const scroller = document.querySelector('.scroller');
+        const wrapper = document.querySelector('.wrapper');
+        const afterElement = document.querySelector('.after');
+
+        scroller.addEventListener('mousedown', function () {
+            active = true;
+            scroller.classList.add('scrolling');
+        });
+
+        document.body.addEventListener('mouseup', function () {
+            active = false;
+            scroller.classList.remove('scrolling');
+        });
+
+        document.body.addEventListener('mouseleave', function () {
+            active = false;
+            scroller.classList.remove('scrolling');
+        });
+
+        document.body.addEventListener('mousemove', function (e) {
+            if (!active) return;
+            let x = e.pageX;
+            x -= wrapper.getBoundingClientRect().left;
+            scrollIt(x);
+        });
+
+        function scrollIt(x) {
+            let transform = Math.max(0, Math.min(x, wrapper.offsetWidth));
+            afterElement.style.width = transform + "px";
+            scroller.style.left = transform - 25 + "px"; // Adjust 25 if it's not half of the scroller width
+        }
+
+        // Initialize scroller at 50% width
+        const initialWidth = wrapper.offsetWidth / 2;
+        scrollIt(initialWidth);
+
+        scroller.addEventListener('touchstart', function () {
+            active = true;
+            scroller.classList.add('scrolling');
+        });
+
+        document.body.addEventListener('touchend', function () {
+            active = false;
+            scroller.classList.remove('scrolling');
+        });
+
+        document.body.addEventListener('touchcancel', function () {
+            active = false;
+            scroller.classList.remove('scrolling');
+        });
+
+        function toggleAccordion(id) {
+            const accordion = document.getElementById(`accordion${id}`);
+            accordion.style.maxHeight = accordion.style.maxHeight ? null : `${accordion.scrollHeight}px`;
+        }
+
+    </script>
+</body>
+
+</html>
